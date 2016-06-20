@@ -1,0 +1,58 @@
+
+/*box model hack*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Amatic SC', cursive;
+  width: 100%;
+  margin: 0;
+}
+
+input[type=celsius] {
+  margin: 10px;
+  border: 5px solid #999;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+  -webkit-appearance: none;
+
+}
+
+input[type=fahrenheit] {
+  margin: 10px;
+  border: 5px solid #999;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+  -webkit-appearance: none;
+
+}
+
+p {
+  float: right;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.celsius-field {
+  float: left;
+  width: 350px;
+  display: block;
+  text-align: center;
+}
+
+.fahrenheit-field {
+  float: left;
+  width: 350px;
+  display: block;
+  text-align: center;
+}
