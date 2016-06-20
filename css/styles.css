@@ -34,6 +34,10 @@ input[type=fahrenheit] {
 }
 
 p {
+  margin: 0;
+  margin-left: 2px;
+  font-weight: 700;
+  font-size: 45px;
   float: right;
 }
 
@@ -43,7 +47,25 @@ h1 {
   text-align: center;
 }
 
+.input-field-container {
+  /*border: 2px solid black;*/
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  overflow: auto;
+  width: 55%;
+  transform: translate(-50%, -50%);
+  
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  /*width: 40%;*/
+ /* height: 50%;*/
+}
+
 .celsius-field {
+  margin: 0;
   float: left;
   width: 350px;
   display: block;
@@ -51,6 +73,7 @@ h1 {
 }
 
 .fahrenheit-field {
+  margin-left: 15px;
   float: left;
   width: 350px;
   display: block;
