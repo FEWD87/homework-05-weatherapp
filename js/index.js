@@ -1,11 +1,15 @@
 $(function(){
 
-  $("#celsius-field").submit(function(event) {
+  $("#celsius").submit(function(event) {
 
-    var 
+    var celsius = $("#celsius-input-field").val();
     event.preventDefault();
 
+    console.log("called");
+
   });
+
+  
 
 
 
