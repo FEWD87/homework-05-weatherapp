@@ -1,3 +1,7 @@
+
+//This app will preform temperature conversion
+//takes user inputs from both fahrenheit text field and celsius text field
+
 $(function(){
 
   // Listen to the submit event on the celsius-input-field
@@ -11,6 +15,14 @@ $(function(){
 
     $("#fahrenheit-input-field").val(convertToFahrenheit(celsius));
 
+    //adding logic : changing background picture according to temperature (degree Celsius)
+    if (celsius <= 0 ) {
+      $("body").attr("class","cold");
+    } else if (celsius >= 30 ) {
+      $("body").attr("class","hot");
+    } else {
+      $("body").attr("class","general");
+    }
     /*console.log("called");*/
 
   });
@@ -26,7 +38,15 @@ $(function(){
     event.preventDefault();
 
     $("#celsius-input-field").val(convertToCelsius(fahrenheit));
-  
+    
+    //adding logic : changing background picture according to temperature (degree Fahrenheit)
+    if (fahrenheit <= 10 ) {
+      $("body").attr("class","cold");
+    } else if (fahrenheit >= 86 ) {
+      $("body").attr("class","hot");
+    } else {
+      $("body").attr("class","general");
+    }
   });
 
  

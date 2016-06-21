@@ -79,3 +79,15 @@ h1 {
   display: block;
   text-align: center;
 }
+
+.hot {
+  background-image: url("../images/hot3.jpg");
+}
+
+.cold {
+  background-image: url("../images/coldAlaska.jpg");
+}
+
+.general {
+  background-image: url("../images/general.jpg");
+}
