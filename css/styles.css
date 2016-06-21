@@ -1,0 +1,93 @@
+
+/*box model hack*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Amatic SC', cursive;
+  width: 100%;
+  margin: 0;
+}
+
+input[type=celsius] {
+  margin: 10px;
+  border: 5px solid #999;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+  -webkit-appearance: none;
+
+}
+
+input[type=fahrenheit] {
+  margin: 10px;
+  border: 5px solid #999;
+  border-radius: 3px;
+  width: 300px;
+  height: 50px;
+  -webkit-appearance: none;
+
+}
+
+p {
+  margin: 0;
+  margin-left: 2px;
+  font-weight: 700;
+  font-size: 45px;
+  float: right;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input-field-container {
+  /*border: 2px solid black;*/
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  overflow: auto;
+  width: 55%;
+  transform: translate(-50%, -50%);
+  
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  /*width: 40%;*/
+ /* height: 50%;*/
+}
+
+.celsius-field {
+  margin: 0;
+  float: left;
+  width: 350px;
+  display: block;
+  text-align: center;
+}
+
+.fahrenheit-field {
+  margin-left: 15px;
+  float: left;
+  width: 350px;
+  display: block;
+  text-align: center;
+}
+
+.hot {
+  background-image: url("../images/hot3.jpg");
+}
+
+.cold {
+  background-image: url("../images/coldAlaska.jpg");
+}
+
+.general {
+  background-image: url("../images/general.jpg");
+}
