@@ -1,0 +1,61 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/sunset.jpg) 0 0 no-repeat;
+  background-size: cover;
+  font-family: 'Amatic SC';
+}
+
+.header {
+  height: 200px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #596d7b;
+  font-size: 40px;
+}
+
+#ferinheight {
+  font-size: 80px; 
+  padding: 2px;
+}
+
+#celciusbox {
+  text-align: center;
+}
+
+#celciusInput {
+  background: #b7a79c;
+  color: #596d7b;
+  padding: 20px;
+  border: 2px solid #596d7b;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Amatic SC';
+}
+
+#submitCelcius {
+  background: #b7a79c;
+  color: #596d7b;
+  padding: 20px;
+  border: 2px solid #596d7b;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Amatic SC';
+}
+
+.hot {
+  background: url(../images/hot.jpg)
+}
+.nice {
+  background: url(../images/nice.jpg)
+}
+.snow {
+  background: url(../images/snow.jpg)
+}
