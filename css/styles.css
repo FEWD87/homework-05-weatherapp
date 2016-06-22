@@ -1,0 +1,129 @@
+body {
+  background-repeat: no-repeat;
+}
+
+.entry {
+  height: 25px; 
+}
+
+.button {
+  height: 31px;
+}
+
+.desert {
+  background-image: url(../images/desert.jpg);
+  background-size: cover;
+}
+
+.beach {
+  background-image: url(../images/beach.jpg);
+  background-size: cover;
+}
+
+.beach h1 {
+  border: 2px black solid;
+  background-color: #83dbe4;
+  width: 430px;
+  padding: 3px;
+}
+
+.beach h2 {
+  border: 2px black solid;
+  background-color: #83dbe4;
+  width: 780px;
+  padding: 3px;
+}
+
+.beach h3 {
+  border: 2px black solid;
+  background-color: #83dbe4;
+  width: 55px;
+  padding: 3px;
+}
+
+.spring {
+  background-image: url(../images/spring.jpg);
+  background-size: cover;
+}
+
+.spring h1 {
+  background-color: #d096da;
+  border: black solid 2px;
+  width: 430px;
+  padding: 3px;
+}
+
+.spring h2 {
+  background-color: #d096da;
+  border: black solid 2px;
+  width: 780px;
+  padding: 3px;
+}
+
+.spring h3 {
+  background-color: #d096da;
+  border: black solid 2px;
+  width: 55px;
+  padding: 3px;
+}
+
+.fall {
+  background-image: url(../images/fall.jpg);
+  background-size: cover;
+}
+
+.fall h1 {
+  background-color: #dea859;
+  border: black solid 2px;
+  width: 430px;
+  padding: 3px;
+}
+
+.fall h2 {
+  background-color: #dea859;
+  border: black solid 2px;
+  width: 780px;
+  padding: 3px;
+}
+
+.fall h3 {
+  background-color: #dea859;
+  border: black solid 2px;
+  width: 55px;
+  padding: 3px;
+}
+
+.cold {
+  background-image: url(../images/cold.jpg);
+  background-size: cover;
+  color: black;
+}
+
+.cold h1 {
+  background-color: #d5d4d4;
+  border: black solid 2px;
+  width: 430px;
+  padding: 3px;
+}
+
+.cold h2 {
+  background-color: #d5d4d4;
+  border: black solid 2px;
+  width: 780px;
+  padding: 3px;
+}
+
+.cold h3 {
+  background-color: #d5d4d4;
+  border: black solid 2px;
+  width: 55px;
+  padding: 3px;
+}
+
+.arctic {
+  background-image: url(../images/arctic.jpg);
+  background-size: cover;
+}
+
+
+
