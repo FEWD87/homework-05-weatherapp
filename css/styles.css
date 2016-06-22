@@ -1,0 +1,112 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: sans-serif;
+     background: url(../images/seasons.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+header {
+     margin-top: 15%;
+}
+
+#header {
+     text-align: center;
+     margin: auto;
+     font-size: 3em;
+     background-color: white;
+     border: 2px solid black;
+     width: 25%;
+     padding: 3px;
+}
+
+form {
+     width: 25%;
+     border: 2px solid black;
+     margin: 30px auto;
+     padding: 5px;
+     background-color: white;
+     text-align: center;
+     font-size: 2em;
+}
+
+.output {
+     width: 25%;
+     border: 2px solid black;
+     margin: 30px auto;
+     padding: 5px;
+     background-color: white;
+     text-align: center;
+     font-size: 2em;
+}
+
+.winter {
+     background: url(../images/winter.jpg) no-repeat center center fixed;
+}
+
+.spring {
+     background: url(../images/spring.jpg) no-repeat center center fixed;
+}
+
+.summer {
+     background: url(../images/summer.jpg) no-repeat center center fixed;
+}
+
+.fall {
+     background: url(../images/fall.jpg) no-repeat center center fixed;
+}
+
+.death {
+     background: url(../images/death.png) no-repeat center center fixed;
+}
