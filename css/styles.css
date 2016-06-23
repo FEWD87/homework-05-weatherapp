@@ -1,0 +1,74 @@
+* {
+    font-family: 'Hind', sans-serif;
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    padding-top: 3%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+p.header {
+    font-size: 2em;
+}
+
+#celsius {
+    border-radius: 10px;
+    width: 20%;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 1%;
+}
+
+#submit-btn {
+    width: 13%;
+    height: 2em;
+    font-size: 1em;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#fahrenheit {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.freezing {
+    background-image: url(../images/freezing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cool {
+    background-image: url(../images/cool.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.moderate {
+    background-image: url(../images/moderate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.warm {
+    background-image: url(../images/warm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hot {
+    background-image: url(../images/hot.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: darkslategrey;
+}
