@@ -13,27 +13,18 @@ $(function(){
     $("#ferinheight").text(ferinheight);
     $("#returnCelcius").text(celcius);
     $("#celciusInput").val("");
-  }
 
-  //if ferinheight >= 80 display hot.img
-  //else if ferinheight <= 30 display snow.img
-  //else display nice.img
 
-  $("#submitCelcius").click(changeBackground);
-
-  function changeBackground() {
-    var celcius = parseInt($("#celciusInput").val()); 
-    var ferinheight = calculateFerinheight(celcius);
-    
-    if (ferinheight <= 90) {
-      $("body").attr("class", "hot");
-    } else if (ferinheight <= 50) {
+    if (ferinheight > -50 && ferinheight  <= 40 ) {
+      $("body").attr("class", "snow");
+    } else if (ferinheight <= 65) {
       $("body").attr("class", "nice");
     } else {
-      $("body").attr("class", "snow");
+      $("body").attr("class", "hot");
     }
-    $("#cityType").val("");
+
   }
+
 
  function calculateFerinheight (celcius) {
     return celcius * 1.8 + 32;

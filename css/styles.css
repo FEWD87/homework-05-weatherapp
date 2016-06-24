@@ -7,6 +7,7 @@
 body {
   background: url(../images/sunset.jpg) 0 0 no-repeat;
   background-size: cover;
+  max-width: 100%;
   font-family: 'Amatic SC';
 }
 
@@ -17,7 +18,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #596d7b;
+  color: #eaeded;
   font-size: 40px;
 }
 
@@ -32,9 +33,9 @@ h1 {
 
 #celciusInput {
   background: #b7a79c;
-  color: #596d7b;
+  color: #eaeded;
   padding: 20px;
-  border: 2px solid #596d7b;
+  border: 2px solid #eaeded;
   border-radius: 10px;
   font-size: 30px;
   font-family: 'Amatic SC';
@@ -42,9 +43,9 @@ h1 {
 
 #submitCelcius {
   background: #b7a79c;
-  color: #596d7b;
+  color: #eaeded;
   padding: 20px;
-  border: 2px solid #596d7b;
+  border: 2px solid #eaeded;
   border-radius: 10px;
   font-size: 30px;
   font-family: 'Amatic SC';
