@@ -1,0 +1,51 @@
+body {
+  background: purple;
+  font-family: sans-serif;
+  font-size: 20pt;
+  margin: 3em;
+  padding: 0;
+}
+
+#temperature {
+  background: white;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 12px;
+  width: 707px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+#originalTemp {
+  text-align: center;
+  font-size: 35pt;
+  width: 700px;
+}
+
+#result {
+  color: white;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.cold {
+  background: url(../images/cold.jpg) repeat fixed;
+  background-size: cover;
+}
+
+.tepid { 
+  background: url(../images/tepid.jpg) repeat fixed;
+  background-size: cover; 
+}
+
+.warm {
+  background: url(../images/warm.jpg) repeat fixed;
+  background-size: cover;
+}
+
+.hot {
+  background: url(../images/hot.jpg) repeat fixed;
+  background-size: cover;
+ }
