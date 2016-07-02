@@ -1,0 +1,40 @@
+body {
+  margin: 30px;
+  line-height: 3;
+  align-items: center;
+  width: 100%;
+  margin-left: 30%;
+  background-image: url(../images/www.jpg);
+  background-size: cover;
+
+}
+
+em {
+  font-weight: 800;
+}
+
+.winter {
+  background-image: url(../images/winter.jpg);
+  background-size: cover;
+}
+
+.spring {
+  background-image: url(../images/spring.jpg);
+  background-size: cover;
+}
+.summer {
+  background-image: url(../images/summer.jpg);
+  background-size: cover;
+}
+
+#spanish, #french, #russian  {
+  float: left;
+}
+
+hr {
+  clear: left;
+}
+
+.done {
+  text-decoration: line-through;
+}
