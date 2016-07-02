@@ -52,16 +52,51 @@ $("#convert").click(function(){
   }
 
 
+  // Add a click event to each list item
+  $(".list").click(function(){
+    //Add toggleClass method to the item
+    // that is clicked so its class will toggle
+    // ".done" on and off
+    //if u click one of the elements it will add / remove class done
+    $(this).toggleClass('done');
+    //THIS one is for each one to work separately =)
+  });
 
-//   $("function toggleThanks () {
+  var isDisplayed = false;
 
- 
-//   }
-// });
+  $("#showStuff").click(function() {
+    // create a variable with staff names
+    var stuff = ['Irina', 'lazy', 'cool'];
 
-//how do I make enter work as well as click?
+    // iterate (loop through array), we automatically get access to the 
+      // element and the index variables
+    $.each(stuff, function(index, element){
+      $("#stuff").append("<li>" + element + "</li>");
+      $("#showStuff").text("Hide Fun Stuff");
+    });
 
+    if (isDisplayed) {
+       isDisplayed = false;
+      $("li").hide();
 
+    } else {
+      isDisplayed = true;
+      $("li").show();
+    };
+
+  //DO I MAKE SHOW FUN STUFF REPEAT ?
+
+  });
+
+  // $("#showStuff").click(function() {
+      
+  //     $("#showStuff").text("Show Fun Stuff");
+  // });
+  //HOW 
+
+  //HOW do I make click on enter on keyboard work as well as click for the top?
+
+// put in a form
 
 
 
