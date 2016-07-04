@@ -17,7 +17,7 @@ $(function(){
 		if (finalTemp < 35) {
 			$("body").css("background-image", "url(images/snow.jpg)");
 		} else if (finalTemp < 64) {
-			$("body").css("background-image", "url(images/spring.jpg" , "background-repeat", "no-repeat"); 
+			$("body").css({"background-image", "url(images/spring.jpg" , "background-repeat", "no-repeat"}); 
 		} else if (finalTemp > 65) {
 			$("body").css("background-image", "url(images/desert.jpg)");
 		};
