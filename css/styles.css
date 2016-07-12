@@ -1,0 +1,114 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url(../images/GOT_weather.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#header {
+  text-align: center;
+  font-size: 3em;
+}
+
+label {
+  color: #000;
+}
+
+#celsius {
+  width: 25%;
+  border: 2px solid black;
+  margin: 30px auto;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+input {
+  width: 80%;
+}
+
+#tempF {
+  width: 25%;
+  border: 2px solid black;
+  margin: 30px auto;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+  color: #000;
+}
+
+.freezing {
+  background: url(../images/freezing.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cold {
+  background: url(../images/cold.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.warm {
+  background: url(../images/warm.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.hot {
+  background: url(../images/hot.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.burning {
+  background: url(../images/burning.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
