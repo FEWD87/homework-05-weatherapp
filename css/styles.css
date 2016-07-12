@@ -1,0 +1,107 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+/* Actual CSS Style Below */
+
+
+
+body, html {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Karla", Arial, sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+header {
+  height: 166px;
+  width: 100%;
+  background-color: #0052cc;
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+  color: white;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 43px;
+  margin: 15px;
+}
+
+p {
+  font-size: 21px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+form {
+  margin-left: 41%;
+  margin-right: 25%;
+  width: 100%;
+}
+
+.container {
+  height: 400px;
+}
+
+.winter {
+  background-image: url(../images/Winter-Wonderland.jpg);
+  background-size: cover;
+}
+
+.fall {
+  background-image: url(../images/fall-road.jpg);
+  max-width: 100%;
+}
+
+.summer {
+  background-image: url(../images/peaceful-summer-day-wallpapers-1920x1080.jpg);
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
