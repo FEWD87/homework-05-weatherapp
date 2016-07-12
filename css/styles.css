@@ -38,11 +38,11 @@
 /*******************************************/
 
 body {
-  color: #000;
+  color: #fff;
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../img/GOT_weather.jpg) no-repeat center center fixed;*/
+  background: url(../images/GOT_weather.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -89,21 +89,26 @@ input {
 }
 
 .freezing {
-  background: url (../img/GOT_freezing) no-repeat center center fixed;
+  background: url(../images/freezing.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .cold {
-  background: url (../img/GOT_cold) no-repeat center center fixed;
+  background: url(../images/cold.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .warm {
-  background: url (../img/GOT_warm) no-repeat center center fixed;
+  background: url(../images/warm.jpeg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .hot {
-  background: url (../img/GOT_hot) no-repeat center center fixed;
+  background: url(../images/hot.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .burning {
-  background: url (../img/GOT_burning) no-repeat center center fixed;
+  background: url(../images/burning.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
